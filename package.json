@@ -1,0 +1,23 @@
+{
+  "name": "brunch-gun",
+  "description": "brunch build tool, with gun.js and jquery",
+  "author": "Brock Atkinson",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brockatkinson/brunch-gun"
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "brunch build --production"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "gzip-brunch": "^1.3.0",
+    "uglify-js-brunch": "^2.0.1"
+  },
+  "dependencies": {
+    "gun": "^0.6.6",
+    "jquery": "^3.2.1"
+  }
+}

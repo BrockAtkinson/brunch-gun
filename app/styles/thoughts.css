@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-size: 6rem;
+  margin: 0;
+}
+
+ul li {
+  font-size: 2rem;
+}
+
+form input,
+form button {
+  font-size: 2rem;
+}
+
+form input {
+  width: calc(100% - 10rem);
+}
