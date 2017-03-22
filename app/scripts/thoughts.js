@@ -1,7 +1,8 @@
 var $ = require('jquery');
 var Gun = require('gun');
+var peers = ['http://localhost:8080/'];
 
-var gun = Gun().get('thoughts');
+var gun = Gun(peers).get('thoughts');
 
 $('form').on('submit', function(event){
   event.preventDefault();
